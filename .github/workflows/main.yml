@@ -33,5 +33,5 @@ jobs:
           GITHUB_REPOSITORY: ${{ github.repository }}
           PR_NUMBER: ${{ github.event.pull_request.number }}
           PR_HEAD_SHA: ${{ github.event.pull_request.head.sha }}
-          OPENAI_MODEL: gpt-4.1-mini
+          OPENAI_MODEL: gpt-6-luna
         run: python scripts/review_pr.py
